@@ -1,6 +1,9 @@
 name: "TravBot-Testing-Actions"
 description: "Does something. Not sure what."
 author: "Keanu Timmermans"
+branding:
+    icon: "check-circle"
+    color: "yellow"
 runs:
   using: "docker"
   image: "Dockerfile"
