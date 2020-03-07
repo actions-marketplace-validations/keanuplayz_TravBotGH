@@ -1,0 +1,8 @@
+name: "TravBot-Testing-Actions"
+description: "Does something. Not sure what."
+author: "Keanu Timmermans"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.myInput }}
