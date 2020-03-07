@@ -10,7 +10,7 @@ It needs a `lint` or `format` NPM/Yarn script.
 
 ```yaml
 on: push
-name: Node Code Formatter
+name: TravBotGH
 jobs:
   lint:
     name: TravBotGH
